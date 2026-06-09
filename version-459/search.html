@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索 - 国产好剧</title>
+  <meta name="description" content="国产电影大全影片搜索页面，可按片名、地区、年份、类型和标签检索高清热播片单。">
+  <meta name="keywords" content="影片搜索,国产电影大全视频免费在线观看·高清电影热播片单 国产好剧,国产,视频,免费,在线观看,高清,影视大全">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="国产好剧">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text">国产好剧</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link is-active" href="search.html">搜索</a>
+    </nav>
+    <button class="menu-button" type="button" aria-label="菜单" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+    <a class="mobile-link" href="index.html">首页</a><a class="mobile-link" href="categories.html">分类</a><a class="mobile-link" href="ranking.html">排行榜</a><a class="mobile-link is-active" href="search.html">搜索</a>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-kicker">快速查找</span>
+      <h1 class="page-title">影片搜索</h1>
+      <p class="page-lead">输入片名、地区、年份、类型或标签，快速进入对应影片详情页。</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="search-panel">
+        <input class="search-input" type="search" placeholder="搜索片名、地区、年份或标签" data-search-box autofocus>
+        <div class="result-grid" data-search-results></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-logo" href="index.html">
+        <span class="logo-mark">▶</span>
+        <span>国产好剧</span>
+      </a>
+      <p>汇集国产电影大全等影视内容，提供视频免费在线观看与在线点播服务，支持高清播放，可按推荐榜、热播片单浏览电影内容。</p>
+    </div>
+    <div>
+      <h2>热门入口</h2>
+      <div class="footer-links">
+        <a href="categories.html">全部分类</a>
+        <a href="ranking.html">热播榜单</a>
+        <a href="search.html">影片搜索</a>
+      </div>
+    </div>
+    <div>
+      <h2>精选片单</h2>
+      <div class="footer-links">
+        <a href="category-hot.html">高清热播</a><a href="category-picks.html">精品片单</a><a href="category-drama.html">剧情精选</a><a href="category-love.html">爱情奇幻</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产好剧 · 高清电影热播片单</div>
+</footer>
+<script src="app.js"></script>
+<script src="search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
